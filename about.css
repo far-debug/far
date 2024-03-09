@@ -1,0 +1,43 @@
+div h1{
+  font-family: "Anta", sans-serif;
+  font-weight: 600;
+  width: 130px;
+  margin: 12px auto;
+  color: #A2FAF6;
+}
+div p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  background: #E9A2FA;
+}
+body{
+  background: #D960F6;
+}
+#search-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#search-input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+#search-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.highlighted {
+  background-color: yellow;
+  font-weight: bold;
+}

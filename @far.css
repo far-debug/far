@@ -1,0 +1,111 @@
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    body {
+      background: #C7FFFA;
+    }
+    img{
+      height: 55px;
+      width: 55px;
+      border-radius: 50px;
+    }
+    header{
+      background: aquamarine;
+      height: 50px;
+      justify-content: center;
+      text-align: center;
+    }
+    header a{
+      display: inline-block;
+      width: 150px;
+      border: 2px solid #00B71B;
+      padding: 6px;
+      margin-top: 6px;
+      border-radius: 12px;
+      text-decoration: none;
+      background: #FF5D97;
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      color: #FFDD00;
+    }
+header a:hover{
+  background: #7A00FF;
+  color: #88FFFE;
+  border-radius: 14px;
+}
+.img-pp{
+  border: 2px solid #000000;
+  margin: 30px 0px 0px 0px;
+  position: relative;
+  left: 25px;
+}
+.name{
+  font-family: "Space Grotesk", "Poppins", sans-serif;
+  font-weight: 800;
+  margin-left: 15px;
+}
+.username a{
+  font-family: "Space Grotesk", "Poppins", sans-serif;
+  font-weight: 800;
+  margin-left: 12px;
+  text-decoration: none;
+  color: #008392;
+}
+.data{
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.cont-data, .r-data{
+  display: inline-block;
+  width: 50px;
+  margin: 9px;
+}
+#likes{
+  position: absolute;
+  top: 55px;
+  left: 115px;
+}
+#c-likes{
+  position: absolute;
+  top: 35px;
+  left: 105px;
+  font-size: 25px;
+}
+#followers{
+  position: absolute;
+  top: 55px;
+  left: 185px;
+}
+#c-followers{
+  position: absolute;
+  top: 35px;
+  left: 181px;
+  font-size: 25px;
+  letter-spacing: 1.1px;
+}
+#following{
+  position: absolute;
+  top: 55px;
+  left: 275px;
+}
+#c-following{
+  position: absolute;
+  top: 35px;
+  left: 281px;
+  font-size: 25px;
+  letter-spacing: 1.1px;
+}
+.follow-button{
+  border: 1px solid #001D62;
+  background: #09FFE9;
+  padding: 3px 75px;
+  border-radius: 14px;
+  box-shadow: 23px;
+  margin: 6px;
+  position: absolute;
+  left: 145px;
+  top: 95px;
+}
