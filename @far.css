@@ -65,7 +65,7 @@ header a:hover{
 }
 #likes{
   position: absolute;
-  top: 55px;
+  top: 60px;
   left: 115px;
 }
 #c-likes{
@@ -76,7 +76,7 @@ header a:hover{
 }
 #followers{
   position: absolute;
-  top: 55px;
+  top: 60px;
   left: 185px;
 }
 #c-followers{
@@ -88,7 +88,7 @@ header a:hover{
 }
 #following{
   position: absolute;
-  top: 55px;
+  top: 60px;
   left: 275px;
 }
 #c-following{
