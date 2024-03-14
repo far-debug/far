@@ -1,4 +1,5 @@
-    *{
+  /*
+  *{
       margin: 0px;
       padding: 0px;
     }
@@ -112,3 +113,171 @@ header a:hover{
 section{
   position: sticky;
 }
+*/
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body {
+      background: #000;
+      color: #fff;
+    }
+
+    img {
+      height: 85px;
+      width: 85px;
+      border-radius: 50px;
+    }
+
+    header {
+      background: #626365;
+      height: 50px;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header a {
+      display: inline-block;
+      width: 150px;
+      border: 2px solid #FFFFFF;
+      padding: 6px;
+      margin-top: 6px;
+      border-radius: 12px;
+      text-decoration: none;
+      background: #B087BB;
+      font-family: "Poppins", sans-serif;
+      font-weight: 800;
+      color: #4C6463;
+    }
+
+    header a:hover {
+      background: #7A00FF;
+      color: #88FFFE;
+      border-radius: 14px;
+    }
+
+    .img-pp {
+      border: 2px solid #fff;
+      margin: 30px 0px 0px 0px;
+      position: relative;
+      left: 25px;
+    }
+
+    .name {
+      font-family: "Space Grotesk", "Poppins", sans-serif;
+      font-weight: 800;
+      margin-left: 20px;
+    }
+
+    .username a {
+      font-family: "Space Grotesk", "Poppins", sans-serif;
+      font-weight: 800;
+      margin-left: 19px;
+      text-decoration: none;
+      color: #008392;
+    }
+
+    .data {
+      font-family: "Poppins", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    .cont-data,
+    .r-data {
+      display: inline-block;
+      width: 50px;
+      margin: 9px;
+    }
+
+    #likes {
+      position: absolute;
+      top: 58px;
+      left: 125px;
+      font-weight: 300;
+    }
+
+    #c-likes {
+      position: absolute;
+      top: 35px;
+      left: 115px;
+      font-size: 25px;
+    }
+
+    #followers {
+      position: absolute;
+      top: 58px;
+      left: 195px;
+      font-weight: 300;
+
+    }
+
+    #c-followers {
+      position: absolute;
+      top: 35px;
+      left: 191px;
+      font-size: 25px;
+      letter-spacing: 1px;
+    }
+
+    #following {
+      position: absolute;
+      top: 58px;
+      left: 287px;
+      font-weight: 300;
+    }
+
+    #c-following {
+      position: absolute;
+      top: 35px;
+      left: 290px;
+      font-size: 25px;
+      letter-spacing: 1px;
+    }
+
+    .follow-button {
+      border: 1.5px solid #FFFFFF;
+      background: #8083A4;
+      padding: 5px 40px;
+      border-radius: 4px;
+      box-shadow: 23px;
+      margin: 6px;
+      position: absolute;
+      left: 12px;
+      top: 230px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      color: #42445A;
+    }
+
+    section {
+      position: sticky;
+    }
+
+    #b-follow {
+      z-index: 1;
+    }
+
+    #b-like {
+      left: 243px;
+    }
+
+    #b-message {
+      left: 136px;
+      padding: 3.5px 20px;
+      font-weight: 400;
+      font-family: "Poppins", sans-serif;
+      font-size: 15.5px;
+    }
+
+    .bio {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      margin: 2px auto;
+      width: 333px;
+      justify-content: left;
+      line-height: 18px;
+    }
