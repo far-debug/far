@@ -109,3 +109,6 @@ header a:hover{
   left: 145px;
   top: 95px;
 }
+section{
+  position: sticky;
+}
